@@ -1,12 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Description will go here
-
-## Write a short comment describing this function
+## These functions will enable the evauluation and caching of the inverse of a matrix.
+## The matrix has to be invertible.
 
 ## I was able to validate the following code works using the test cases at:
 ## https://class.coursera.org/rprog-003/forum/thread?thread_id=650
+
+## This function creates a list of functions.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -25,7 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function tries first to find the already solved matrix inverse and returns it if available.
+## If not it solves the inverse of a matrix and caches the result.
 
 cacheSolve <- function(x) {
 
