@@ -16,7 +16,7 @@ makeVector <- function(x = numeric()) {
 
 ## Write a short comment describing this function
 
-cachemean <- function(x, ...) {
+cachemean <- function(x) {
         m <- x$getmean()
         if(!is.null(m)) {
                 message("getting cached data")

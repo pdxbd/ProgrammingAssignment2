@@ -5,7 +5,8 @@
 
 ## Write a short comment describing this function
 
-## Comment will go here
+## I was able to validate the following code works using the test cases at:
+## https://class.coursera.org/rprog-003/forum/thread?thread_id=650
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -26,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
-cacheSolve <- function(x, ...) {
+cacheSolve <- function(x) {
 
         ## Return a matrix that is the inverse of 'x'
 	m <- x$getinverse()
@@ -35,7 +36,7 @@ cacheSolve <- function(x, ...) {
                 return(m)
         }
         data <- x$get()
-        m <- solve(data, ...)
+        m <- solve(data)
         x$setinverse(m)
         m
 }
