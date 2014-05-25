@@ -103,3 +103,9 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+### Links from the forums
+
+1. https://class.coursera.org/rprog-003/forum/thread?thread_id=664
+2. https://class.coursera.org/rprog-003/forum/thread?thread_id=650
+
